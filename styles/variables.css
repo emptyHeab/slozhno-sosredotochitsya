@@ -17,11 +17,12 @@
   --text-font-size: 18px;
   --text-color:#f1b2ce;
 
-  --normal-margin: 50px 10px;
+  --normal-margin-inline: 20px;
 
   --title-text-color: #db00ff;
   --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --title-shadow: 4px 4px 0px #ff0070;
+  --footer-shadow: 2px 2px 0px #ff0070;
 
   --question-color: #ff0070;
 
