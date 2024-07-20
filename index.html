@@ -17,7 +17,7 @@
   </head>
   <body class="page">
     <header class="header decorated-zone">
-      <div class="header__record"></div>
+      <div aria-hidden="true" class="header__record"></div>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -47,7 +47,7 @@
       <h1 class="header__title">
         no focus
       </h1>
-      <h2 class="text header__question">
+      <h2 class="header__question">
         Что делать, когда не можешь делать ничего<br>
         Или почему нам так сложно сконцентрироваться, особенно когда очень надо
       </h2>
@@ -73,11 +73,11 @@
         </article>
       </section>
       <section class="main__cont">
-        <h2 class="question">
+        <h2 class="question main__cont-question">
           Что снижает концентрацию внимания?
         </h2>
         <div class="main__cont-text">
-          <article>
+          <article class="main__cont-text-item">
             <h3 class="title-decor">
               Многозадачность
             </h3>
@@ -85,7 +85,7 @@
               Как концентрация может снижаться из-за… концентрации? Любая стрессовая ситуация (и резко меняющийся мир в целом) заставляет наш мозг постоянно «сканировать» окружающую среду на предмет опасности. Например, читать новости вместо работы. Но быть собранными всё время — невозможно. Концентрация — мышца, и она может не выдержать, если не давать ей отдохнуть.
             </p>
           </article>
-          <article>
+          <article class="main__cont-text-item">
             <h3 class="title-decor">
               Еда
             </h3>
@@ -93,7 +93,7 @@
               «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно доставляют в мозг энергию и помогают ему лучше работать. Но уходит эта энергия также быстро, как и приходит. А мы в результате попадаем на «углеводные качели»: как только действие «быстрых углеводов» заканчивается, мы чувствуем усталость и сонливость. И хотим ещё больше быстрых углеводов.
             </p>
           </article>
-          <article>
+          <article class="main__cont-text-item">
             <h3 class="title-decor">
               Гаджеты
             </h3>
@@ -148,31 +148,31 @@
         <ul class="main__gallery-list">
           <li class="column-block">
             <img src="./images/sunset.png"
-            alt="" 
+            alt="Закат на фоне гор" 
             loading="lazy"
             class="image">
           </li>
           <li class="row-block">
             <img src="./images/ice-cream.png"
-            alt="" 
+            alt="Миска с мороженым. Шарики мороженного и миска имеют забавные рожицы." 
             loading="lazy"
             class="image">
           </li>
           <li class="row-block">
             <img src="./images/tape.png"
-            alt="" 
+            alt="Кассета в коружении курсоров и окон приложений" 
             loading="lazy"
             class="image">
           </li>
           <li>
             <img src="./images/books.png"
-            alt="" 
+            alt="Стопка книг, с чашкой наверху" 
             loading="lazy"
             class="image">
           </li>
-          <li >
+          <li class="column-block">
             <img src="./images/street.png"
-            alt="" 
+            alt="Улица в минималистичном стиле" 
             loading="lazy"
             class="image">
           </li>
@@ -180,7 +180,7 @@
       </section>
     </main>
     <footer class="footer">
-      <h2 class="foote__title">focus</h2>
+      <h2 class="footer__title">focus</h2>
     </footer>
     <script src="./scripts/script.js"></script>
   </body>

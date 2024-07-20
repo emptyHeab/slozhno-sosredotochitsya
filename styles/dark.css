@@ -26,4 +26,7 @@
   --text-color:#f1b2ce;
 
   --background-color: #000028;
+
+  --record-color: #ff0070;
+  --record-shadow: 0 0 0 3px rgb(255 0 112 / 0.4);
 }
