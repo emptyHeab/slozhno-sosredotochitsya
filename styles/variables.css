@@ -17,7 +17,8 @@
   --text-font-size: 18px;
   --text-color:#f1b2ce;
 
-  --margin-block-end: 13.5vw;
+  --margin-block-end: 50px;
+  --main-padding: 10px;
 
   --title-text-color: #db00ff;
   --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
