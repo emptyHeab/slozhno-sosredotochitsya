@@ -30,3 +30,28 @@
   --record-color: #ff0070;
   --record-shadow: 0 0 0 3px rgb(255 0 112 / 0.4);
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-image: url("../images/cover-image-dark.png");
+  
+    --accent-color: #ff0070;
+    --accent-text-color: #000028;
+  
+    --menu-text-color: #ff0070;
+    --menu-text-color-hover: rgb(255 0 112 / 0.4);
+  
+    --question-color: #ff0070;
+  
+    --title-text-color: #db00ff;
+  
+    --border-color: #ff0070;
+  
+    --text-color:#f1b2ce;
+  
+    --background-color: #000028;
+  
+    --record-color: #ff0070;
+    --record-shadow: 0 0 0 3px rgb(255 0 112 / 0.4);
+  }
+}
