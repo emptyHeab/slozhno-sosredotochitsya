@@ -8,10 +8,7 @@
   background-size: cover;
   background-attachment: fixed;
   background-color: var(--background-color);
-  overflow-x: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-inline: auto;
 }
 
 /* * { outline: 1px solid red; } */
@@ -208,7 +205,6 @@
 }
 
 .main__gallery-list {
-  overflow: hidden;
   list-style: none;
   display: grid;
   grid-template-rows: 21.2vh repeat(2, calc(100vw - 10px * 2) 35.5vh);
@@ -230,7 +226,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--background-color);
 }
 
 .footer__title {
@@ -345,7 +340,7 @@
   }
 
   .main__gallery-list {
-    grid-template-columns: 31vw 30.2vw 31vw;
+    grid-template-columns: 31vw 30.2vw 1fr;
     grid-template-rows: 25.2vw 31.1vw 42.5vw;
   }
 
